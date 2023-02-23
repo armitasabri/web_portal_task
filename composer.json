@@ -1,0 +1,20 @@
+{
+    "name": "armita/sabri",
+    "description": "get data from remote api and show them inside a table",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ],
+        "files": [
+            "Libraries/Controller.php"
+        ]
+    },
+    "require": {
+        "symfony/routing": "^6.2",
+        "symfony/http-foundation": "^6.2",
+      "ext-curl": "*"
+    }
+}
