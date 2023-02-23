@@ -1,42 +1,46 @@
 
+function search(){
 
-function performSearch() {
 
-    // Declare search string
-    var filter = searchBox.value.toUpperCase();
+    function performSearch() {
 
-    // Loop through first tbody's rows
-    for (var rowI = 0; rowI < trs.length; rowI++) {
+        // Declare search string
+        var filter = searchBox.value.toUpperCase();
 
-        // define the row's cells
-        var tds = trs[rowI].getElementsByTagName("td");
+        // Loop through first tbody's rows
+        for (var rowI = 0; rowI < trs.length; rowI++) {
 
-        // hide the row
-        trs[rowI].style.display = "none";
+            // define the row's cells
+            var tds = trs[rowI].getElementsByTagName("td");
 
-        // loop through row cells
-        for (var cellI = 0; cellI < tds.length; cellI++) {
+            // hide the row
+            trs[rowI].style.display = "none";
 
-            // if there's a match
-            if (tds[cellI].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            // loop through row cells
+            for (var cellI = 0; cellI < tds.length; cellI++) {
 
-                // show the row
-                trs[rowI].style.display = "";
+                // if there's a match
+                if (tds[cellI].innerHTML.toUpperCase().indexOf(filter) > -1) {
 
-                // skip to the next row
-                continue;
+                    // show the row
+                    trs[rowI].style.display = "";
 
+                    // skip to the next row
+                    continue;
+
+                }
             }
         }
-    }
 
-}
+    }
 // declare elements
-const searchBox = document.getElementById("searchInput");
-const table = document.getElementById("myTable");
-var trs = table.tBodies[0].getElementsByTagName("tr");
+    const searchBox = document.getElementById("searchInput");
+    const table = document.getElementById("myTable");
+    var trs = table.tBodies[0].getElementsByTagName("tr");
 
 // add event listener to search box
-searchBox.addEventListener('keyup', performSearch);
+    searchBox.addEventListener('keyup', performSearch);
 
 
+
+}
