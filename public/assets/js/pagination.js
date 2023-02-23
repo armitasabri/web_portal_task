@@ -36,7 +36,6 @@ function buildPage(currPage) {
 }
 
 function buildPagination(currPageNum, numberOfPages){
-    console.log('build me');
     var list=[];
     for (let i=0; i<numberOfPages; i++) {
         list +="<li class='page-item'>"+
