@@ -7,9 +7,6 @@
         },
         "classmap": [
             "app/"
-        ],
-        "files": [
-            "Libraries/Controller.php"
         ]
     },
     "require": {
