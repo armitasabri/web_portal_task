@@ -31,6 +31,7 @@
                                     <div id="main">
                                         <form method="post" enctype="multipart/form-data" action="#">
                                             <input type="file" name="image" id="image" accept="image/*" />
+                                            <button type="submit" id="btn">Upload Files!</button>
                                         </form>
                                         <ul id="image-list" >
                                         </ul>
