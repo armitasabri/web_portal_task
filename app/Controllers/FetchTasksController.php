@@ -13,6 +13,11 @@ class FetchTasksController{
 
     }
 
+    protected function returnedData()
+    {
+
+    }
+
     protected function getAccessToken()
     {
         $curl = curl_init();
