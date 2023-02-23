@@ -75,6 +75,11 @@ class FetchTasksController{
 
     }
 
+    public function getNewTasks(RouteCollection $routes)
+    {
+
+    }
+
 
 
 }
