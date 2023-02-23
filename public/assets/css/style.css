@@ -1,0 +1,16 @@
+html,
+body {
+    height: 100%;
+    width:100%;
+}
+/*.modal_section{*/
+/*  margin-top: 12vh;*/
+/*}*/
+
+table {
+    margin-top: 20px;
+}
+
+.modal {
+    text-align: center;
+}
