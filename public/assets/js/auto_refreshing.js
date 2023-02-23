@@ -56,6 +56,7 @@ function auto_refreshing(){
         // Sending the request to the server
         request.send();
     }
-
+    // const refresh_button = document.getElementById('myInput');
+    // refresh_button.addEventListener('click', getResults);
 
 }
