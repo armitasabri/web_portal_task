@@ -45,3 +45,7 @@ function buildPagination(currPageNum, numberOfPages){
 }
 
 
+function pagination() {
+    buildPage(1)
+    buildPagination(1,5);
+}
