@@ -9,6 +9,11 @@
 
 <body>
     <div class="container">
+
+<!--        <button type="button" id="myInput" class="btn btn-info mb-4 mt-2" >-->
+<!--            get new tasks-->
+<!--        </button>-->
+
         <div class="section d-flex justify-content-between" >
             <div class="modal_section">
                 <div>
