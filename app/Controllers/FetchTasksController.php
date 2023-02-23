@@ -78,6 +78,12 @@ class FetchTasksController{
     public function getNewTasks(RouteCollection $routes)
     {
 
+        $newTasks=['nothing returned back from the serve'];
+        if($this->returnedData()){
+            $newTasks=$this->returnedData();
+        }
+        echo json_encode( ['success' => true,  'data' => $newTasks,] );
+
     }
 
 
