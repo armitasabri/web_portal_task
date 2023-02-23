@@ -81,6 +81,11 @@
                     </tbody>
                 </table>
 
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination" id="pagination">
+                    </ul>
+                </nav>
+
 
             </div>
         </div>
