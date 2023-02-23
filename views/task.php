@@ -8,7 +8,7 @@
 
 <body>
     <div class="container">
-        <div class="section" >
+        <div class="section d-flex justify-content-between" >
             <div class="modal_section">
                 <div>
                     <!-- Button trigger modal -->
@@ -42,6 +42,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div  class="input-group d-flex justify-content-end" >
+                <div class="form-outline">
+                    <label for="searchInput"></label><input id="searchInput" type="text" class="form-control" placeholder="Search inside the table..." />
+                </div>
+
             </div>
 
         </div>
