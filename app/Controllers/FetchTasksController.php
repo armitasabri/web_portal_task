@@ -8,6 +8,10 @@ use Symfony\Component\Routing\RouteCollection;
 
 class FetchTasksController{
 
+    public function getTasks(RouteCollection $routes)
+    {
+
+    }
 
 
 
