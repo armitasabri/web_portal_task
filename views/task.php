@@ -97,6 +97,7 @@
     <script src="./public/assets/js/pagination.js"></script>
     <script src="./public/assets/js/search.js"></script>
     <script src="./public/assets/js/upload.js"></script>
+    <script src="./public/assets/js/auto_refreshing.js"></script>
 
 </body>
 </html>
