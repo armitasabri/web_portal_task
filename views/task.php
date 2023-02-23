@@ -238,7 +238,7 @@
                     }
 
                     alert('refreshed');
-
+                    paginationAndSearch()
                 }
             };
 
