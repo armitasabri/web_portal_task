@@ -10,7 +10,11 @@ class FetchTasksController{
 
     public function getTasks(RouteCollection $routes)
     {
-
+        $task=['nothing returned back from the serve'];
+        if($this->returnedData()){
+            $tasks=$this->returnedData();
+        }
+        require_once APP_ROOT . '/views/task.php';
     }
 
     protected function returnedData()
