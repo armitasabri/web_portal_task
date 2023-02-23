@@ -13,7 +13,7 @@
             <div class="modal_section">
                 <div>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#imageModal">
+                    <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#imageModal">
                         upload
                     </button>
 
