@@ -8,6 +8,43 @@
 
 <body>
     <div class="container">
+        <div class="section" >
+            <div class="modal_section">
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#imageModal">
+                        upload
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="imageModalLabel">Choose your image</h5>
+                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="main">
+                                        <form method="post" enctype="multipart/form-data" action="#">
+                                            <input type="file" name="image" id="image" accept="image/*" />
+                                        </form>
+                                        <ul id="image-list" >
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <div class="section mt-2">
             <div class="d-flex flex-column">
                 <table  id="myTable" class="table table-bordered table-responsive"  style="width:100%">
